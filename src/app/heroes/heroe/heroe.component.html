@@ -1,0 +1,41 @@
+<h1>Listado heroes</h1>
+
+<div>
+    <dl>
+        <td>
+            Nombre
+        </td>
+        <dd>
+            {{nombre}}
+        </dd>
+        <td>
+            Edad
+        </td>
+        <dd>
+            {{edad}}
+        </dd>
+        <td>
+            Nombre real
+        </td>
+        <dd>
+            {{nombreReal}}
+        </dd>
+        <td>
+            Funcion
+        </td>
+        <dd>
+            {{obtenerNombre()}}
+        </dd>
+        <td>
+            Capitalizado
+        </td>
+        <dd>
+            {{nombreCapitalizado}}
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <button (click)="cambiarNombre()"> Cambiar Heroe </button>
+    <button (click)="cambiarEdad()"> Cambiar Edad </button>
+</div>
